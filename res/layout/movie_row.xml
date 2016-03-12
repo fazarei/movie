@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/gridtablerow"
+            >
+            
+            <TextView
+                android:id="@+id/txtid"
+				style="@style/gridtextview"
+				android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txttitle"
+				style="@style/gridtextview"
+				android:layout_width="200dp"/>
+
+            <TextView
+                android:id="@+id/txtgener"
+                style="@style/gridtextview"
+                android:layout_width="200dp" />
+
+            <TextView
+                android:id="@+id/txtdesc"
+                style="@style/gridtextview"
+                android:layout_width="300dp"
+                android:layout_marginRight="50dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"  />
+            
+        </TableRow>
+
+        
+    </TableLayout>
