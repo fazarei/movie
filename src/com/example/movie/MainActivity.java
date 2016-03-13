@@ -27,7 +27,7 @@ import android.widget.ListView;
 
 
 public class MainActivity extends Activity implements OnItemClickListener {
-	
+//I want to test Feature branch	
 	ListView mMovieList;
 	ArrayList<Movie> movieArrayList = new ArrayList<Movie>();
 	ArrayAdapter<String> movieAdapter;
